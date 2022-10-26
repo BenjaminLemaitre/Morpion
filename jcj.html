@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jcj.css">
+    <script src="jcj.js" defer></script>
+    <title>JCJ</title>
+</head>
+<body onload="locaux()">
+    <div id="tableau">
+        <section id="score">
+            <p>Score Actuel</p>
+            <b><div id="J1">Joueur X</div>
+                <div id="score1">0</div>
+                <div id="J2">Joueur O</div>
+                <div id="score2">0</div></b>
+            </section>
+            <h1>Morpion<br>JCJ</h1>
+        <section id="scores">
+            <p>Score Sauvegarder</p>
+            <b><div id="J1s">Joueur X</div>
+                <div id="score1s">0</div>
+                <div id="J2s">Joueur O</div>
+                <div id="score2s">0</div></b>
+            </section>
+        </div>
+        <a href="jce.html"><button class="jce"><b>1 VS Ord</b></button></a>
+    <br>
+    <section id="btn_input">
+        <input type="submit" value="Continuer" id="continuer" onclick="continuer()">
+        <input type="submit" value="Recommencer" id="reloadGame" onclick="reloadGame()">
+    </section>
+    <section id="partie">
+        <div>Partie:</div>
+        <div id="encours">1</div>
+    </section>
+    <section id="jeu">
+        <div data-index="0" id="case1" class="case"></div>
+        <div data-index="1" id="case2" class="case"></div>
+        <div data-index="2" id="case3" class="case"></div>
+        <div data-index="3" id="case4" class="case"></div>
+        <div data-index="4" id="case5" class="case"></div>
+        <div data-index="5" id="case6" class="case"></div>
+        <div data-index="6" id="case7" class="case"></div>
+        <div data-index="7" id="case8" class="case"></div>
+        <div data-index="8" id="case9" class="case"></div>
+    </section>
+    <section id="coup">
+        <div>Coups restant:</div>
+        <div id="coups">9</div>
+    </section>
+    <label>Nombre de parties max:</label>
+    <input type="number" id="partiesMax">
+    <input type="submit" value="OK" id="ok" onclick="definir()">
+    <h2 id="affichage"></h2>
+    <section id="btn_save">
+        <input type="submit" value="Sauvegarder" id="sauvegarder" onclick="sauvegarde()">
+        <input type="submit" value="Effacer" id="effacer" onclick="effacer()" >
+    </section>
+</body>
+</html>

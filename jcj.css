@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    text-align: center;
+    background-image: url(IMG/poesie_medievale_eustache_deschamps_villon_duel_honneur_jacques_callot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgba(255, 228, 196, 0.7);
+}
+
+#case1, #case2, #case4, #case5{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+#case7, #case8 {
+    border-right: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+#case3, #case6 {
+    border-bottom: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+#case9 {
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+#partie {
+    margin: auto;
+    font-size: larger;
+    width: 80px;
+    background-color: rgba(254, 89, 0, 0.76);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#J1, #J1s {
+    color: blue;
+}
+
+#J2, #J2s {
+    color: red;
+}
+
+#btn_input {
+    margin-top: 0.5%;
+}
+
+#affichage {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 275px;
+    position: static;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+h1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    position: static;
+    margin: auto;
+    background-color: rgba(62, 249, 71, 0.451);
+}
+
+input {
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+#continuer:hover {
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+
+#reloadGame:hover {
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+
+#tableau.content {
+    display: flex;
+    justify-content: center;
+}
+
+#score, h1, #scores {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#score {
+    margin: auto;
+    font-size: larger;
+    width: 150px;
+    background-color: rgba(205, 246, 70, 0.651);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#scores {
+    margin: auto;
+    font-size: larger;
+    width: 150px;
+    background-color: rgba(205, 246, 70, 0.651);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+label {
+    background-color: rgb(152, 207, 233);
+    border: 1px solid black;
+    
+}
+
+#ok:hover {
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+
+#coup { 
+    margin: auto;
+    font-size: larger;
+    width: 150px;
+    background-color: rgba(254, 89, 0, 0.76);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.jce {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 2px;
+}

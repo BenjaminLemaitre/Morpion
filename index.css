@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    background-image: url(IMG/656019_dollaryi_kupyura_krestiki-noliki_igra_3968x2640_www.Gde-Fon.com.jpg);
+    background-position-y: -85px;
+    background-position-x: -60px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 18.2%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jcj{
+    justify-content: center;
+    background-color: orange;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.jcj:hover {
+    background-color: darkgoldenrod;
+    color:black;
+}
+
+.jce:hover {
+    background-color: rgb(79, 79, 162);
+    color:black;
+}
+
+.jce{
+    justify-content: center;
+    background-color: turquoise;
+    padding: 4px;
+    border-radius: 10px;
+}
+
